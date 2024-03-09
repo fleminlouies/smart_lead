@@ -30,6 +30,10 @@ const routes = [
         component: EmailCampaigns
       }
     ]
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/"
   }
 ]
 
